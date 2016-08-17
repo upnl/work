@@ -21,6 +21,7 @@
 
 - [유피넬 위키](http://wiki.sodrak.upnl.org/)
 - [노나메용 위키](http://old.wiki.sodrak.upnl.org/)
+- *아이디*.upnl.org
 
 걍 서버.
 
@@ -30,6 +31,8 @@
 3. 유리엘
 --------
 <https://uriel.upnl.org/>
+
+- *아이디*.uriel.upnl.org (HTTPS Only)
 
 연습장 서버.
 
