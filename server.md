@@ -24,6 +24,11 @@ A. 제미니
 OS | Ubuntu 14.04.5 LTS
 위치 | 춘천 IDC
 하드웨어 | 일반 탑형 데스크톱
+Mainboard | 기가비트 GA-MA770-US3
+CPU | AMD Phenom 8750 (triple core, 2.40 GHz)
+RAM | DDR2 1GB×2 + 2GB×2
+Storage | 465.8GB, 시게이트 ST500DM002-1BD14
+VGA | GeForce 9500 GT
 
 아래와 같은 서비스들이 호스팅되고있음
 
@@ -58,6 +63,11 @@ B. 소드락
 OS | Ubuntu 14.04.5 LTS
 위치 | 302동 서버실
 하드웨어 | 랙 유닛 (2U)
+Mainboard | 델 0RH817
+CPU | Intel Xeon 3060 (dual core, 2.40 GHz)
+RAM | DDR2 2GB × 4
+Storage | 465.8GB, 시게이트 ST500DM002-1BD14<br>931.5GB, 웨스턴 디지털 그린 WDC WD10EACS-00D
+VGA | ATI ES1000
 
 1.  [유피넬 위키](http://wiki.sodrak.upnl.org/)
 1.  [노나메용 위키](http://old.wiki.sodrak.upnl.org/)
@@ -94,6 +104,11 @@ C. 유리엘
 OS | Ubuntu 14.04.5 LTS
 위치 | 동아리방
 하드웨어 | 일반 탑형 데스크톱
+Mainboard | 기가비트 P55-UD3
+CPU | Intel Core i5-750 (quad core, 2.67 GHz)
+RAM | DDR3 2GB × 1
+Storage | 298.1GB, 웨스턴 디지털 블루 WDC WD3200AAJS-0
+VGA | MGA 2064W
 
 1.  *아이디*.uriel.upnl.org (HTTPS Only)
 
@@ -131,6 +146,11 @@ D. 에델브로이
 OS | Xen
 위치 | 302동 서버실
 하드웨어 | 랙 유닛 (4U half-rack)
+Mainboard | BIOSTAR TH67B
+CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
+RAM | DDR3 4GB * 4
+Storage | 60GB, 삼성 SSD 830<br>2TB, 히타치 HDD723020BLA642
+VGA | *N/A*
 
 원래는 서버관리자 [김지현](https://hyeon.me/)이 이 엄청난 사양을 이용해서 유피넬
 회원들마다 가상머신을 하나씩 주자는 원대한 계획을 세우며 받았으나, 공인IP를
