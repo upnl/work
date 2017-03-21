@@ -9,11 +9,16 @@
 [Cloudflare]: https://cloudflare.com
 [simnalamburt]: http://github.com/simnalamburt
 
+#### Table of contents
+1. [gemini](#1-gemini)
+2. [edhelbroy](#2-edhelbroy)
+3. [sodrak](#3-sodrak)
+4. [uriel](#4-uriel)
+
 <br>
 
-A. 제미니
---------
-프로덕션 서버.
+## 1. gemini
+제미니, 학외 프로덕션 서버.
 
 유피넬 공식 서비스들이 호스팅되는 서버. 서버관리자와 서비스운영자만이 root
 권한을 갖고있고, 일반유저들은 접근할 수 없음.
@@ -50,9 +55,41 @@ VGA | GeForce 9500 GT
 
 <br>
 
-B. 소드락
---------
-걍 서버.
+## 2. edhelbroy
+에델브로이, 학내 프로덕션 서버
+
+[선배님께 기증](https://www.snucse.org/413785)받은 서버이다. 다른 서버들은
+평범한 개인용 데스크톱 PC에 리눅스를 설치해서 서버로 쓰는것이어서 어딘가
+한두군데 하드웨어 성능이 모자란 부분이 있는 반면, 에델브로이는 애초에 프로덕션
+서버로 사용될것을 가정하고 만들어져서 성능이 압도적이다.
+
+아직 대부분의 서비스들이 제미니에 올라가있다. 제미니에 있는 서비스들을 하나하나
+도커로 감싸 에델브로이로 이전해야한다.
+
+항목 | 내용
+---|---
+주소 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
+OS | Ubuntu 16.04 LTS
+위치 | 서울대학교 302동 서버실
+하드웨어 | 랙 유닛 (4U half-rack)
+Mainboard | BIOSTAR TH67B
+CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
+RAM | DDR3 4GB * 4
+Storage | 60GB, 삼성 SSD 830<br>2TB, 히타치 HDD723020BLA642
+VGA | *N/A*
+
+### `apt`
+- linux-generic-hwe-16.04
+- nginx
+
+한때 서버관리자 [김지현](https://hyeon.me/)이 에델브로이의 엄청난 사양을
+이용해서 유피넬 회원들마다 가상머신을 하나씩 주자는 장밋빛 미래를 꿈꿨으나,
+충분한 수의 공인IP를 확보할 방법이 마땅치 않아 그만뒀다.
+
+<br>
+
+## 3. sodrak
+소드락, 걍 서버.
 
 회칙에 의거하여 모든 유피넬 정회원들은 소드락 계정과 root권한을 받을 수 있음.
 정회원들이 돌리고 싶은 서비스들은 아무거나 돌릴 수 있음.
@@ -60,7 +97,7 @@ B. 소드락
 항목 | 내용
 ---|---
 주소 | [sodrak.upnl.org](http://sodrak.upnl.org/)
-OS | Ubuntu 14.04.5 LTS
+OS | Ubuntu 14.04 LTS
 위치 | 302동 서버실
 하드웨어 | 랙 유닛 (2U)
 Mainboard | 델 0RH817
@@ -91,9 +128,8 @@ VGA | ATI ES1000
 
 <br>
 
-C. 유리엘
---------
-연습장 서버.
+## 4. uriel
+유리엘, 연습장 서버.
 
 회칙에 의거하여 모든 회원들은 유리엘 서버의 계정을 받을 수 있고, 준회원 이상이
 될 경우 root권한을 받을 수 있음.
@@ -132,30 +168,3 @@ VGA | MGA 2064W
 
 <br>
 
-D. 에델브로이
---------
-자고있는 서버.
-
-[선배님께서 기증](https://www.snucse.org/413785)받은 서버로, 타 서버들과 스펙을
-비교했을때 성능이 압도적이다. 그런데 아직 유피넬에서 돌리고있는 서비스들중에서
-높은 서버사양을 요구하는 서비스가 없어서 그냥 꺼놨음.
-
-항목 | 내용
----|---
-주소 | edhelbroy.upnl.org
-OS | Xen
-위치 | 302동 서버실
-하드웨어 | 랙 유닛 (4U half-rack)
-Mainboard | BIOSTAR TH67B
-CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
-RAM | DDR3 4GB * 4
-Storage | 60GB, 삼성 SSD 830<br>2TB, 히타치 HDD723020BLA642
-VGA | *N/A*
-
-### `apt`
-- linux-generic-hwe-16.04
-- nginx
-
-원래는 서버관리자 [김지현](https://hyeon.me/)이 이 엄청난 사양을 이용해서 유피넬
-회원들마다 가상머신을 하나씩 주자는 원대한 계획을 세우며 받았으나, 공인IP를
-여러개 받을 방법이 마땅치 않아 미뤘다는 전설이 있다.
