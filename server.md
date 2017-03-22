@@ -26,6 +26,7 @@
 항목 | 내용
 ---|---
 주소 | [gemini.upnl.org](http://gemini.upnl.org/)
+IP | 211.218.61.123
 OS | Ubuntu 14.04.5 LTS
 위치 | 춘천 IDC
 하드웨어 | 일반 탑형 데스크톱
@@ -69,6 +70,7 @@ VGA | GeForce 9500 GT
 항목 | 내용
 ---|---
 주소 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
+IP | 147.46.242.115
 OS | Ubuntu 16.04 LTS
 위치 | 서울대학교 302동 서버실
 하드웨어 | 랙 유닛 (4U half-rack)
@@ -97,6 +99,7 @@ VGA | *N/A*
 항목 | 내용
 ---|---
 주소 | [sodrak.upnl.org](http://sodrak.upnl.org/)
+IP | 147.46.242.158
 OS | Ubuntu 14.04 LTS
 위치 | 302동 서버실
 하드웨어 | 랙 유닛 (2U)
@@ -137,6 +140,7 @@ VGA | ATI ES1000
 항목 | 내용
 ---|---
 주소 | [uriel.upnl.org](https://uriel.upnl.org/)
+IP | 147.46.113.114
 OS | Ubuntu 14.04.5 LTS
 위치 | 동아리방
 하드웨어 | 일반 탑형 데스크톱
