@@ -47,6 +47,7 @@ VGA | GeForce 9500 GT
 - git vim-nox zsh fish mosh tmux silversearcher-ag
 - nginx htop speedometer fail2ban ntp
 - weechat
+- linux-generic-lts-xenial
 
 ### `apt` (PPA)
 - ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
