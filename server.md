@@ -54,6 +54,10 @@ VGA | GeForce 9500 GT
 - tmux                            - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
 - gitlab-ce                       - [packages.gitlab.com](https://about.gitlab.com/downloads/#ubuntu1404)
 - mono-complete                   - [download.mono-project.com](http://www.mono-project.com/docs/getting-started/install/linux/)
+- docker-engine                   - [download.docker.com](https://docs.docker.com/engine/installation/linux/ubuntu/)
+
+### Note
+- 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꾸는것을 잊지 말것.
 
 <br>
 
