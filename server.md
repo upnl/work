@@ -87,7 +87,8 @@ VGA | *N/A*
 
 ### `apt`
 - linux-generic-hwe-16.04
-- nginx
+- nginx htop
+- python3-venv
 
 한때 서버관리자 [김지현](https://hyeon.me/)이 에델브로이의 엄청난 사양을
 이용해서 유피넬 회원들마다 가상머신을 하나씩 주자는 장밋빛 미래를 꿈꿨으나,
