@@ -87,7 +87,7 @@ VGA | *N/A*
 
 ### `apt`
 - linux-generic-hwe-16.04
-- nginx htop
+- nginx htop mosh
 - python3-venv
 
 한때 서버관리자 [김지현](https://hyeon.me/)이 에델브로이의 엄청난 사양을
