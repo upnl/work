@@ -125,13 +125,14 @@ VGA | ATI ES1000
 ### `apt`
 - mosh zsh fish git htop silversearcher-ag
 - htop speedometer fail2ban ntp
-- apache2 php5 cvs subversion cmake bison ocaml openjdk-7-jdk pandoc redis-server
+- php5 cvs subversion cmake bison ocaml openjdk-7-jdk pandoc redis-server
 - virtualbox firefox docker
 - python3.4-venv
 - debian-goodies ppa-purge
 - linux-generic-lts-xenial linux-image-extra-virtual
 
 ### `apt` (PPA)
+- apache2                         - [ppa:ondrej/apache2](https://launchpad.net/~ondrej/+archive/ubuntu/apache2)
 - ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
 - vim-nox tmux                    - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
 - nodejs                          - [deb.nodesource.com/setup_6.x](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
