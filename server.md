@@ -20,21 +20,29 @@
 ## 1. gemini
 제미니, 학외 프로덕션 서버.
 
+최소한 2008년부터 유피넬 동방에 있었던 컴퓨터. 원래는 학교 컴퓨터였다. (제미니
+옛 본체에 서울대학교 자산이라는 표시가 있음) 학교에서 기증받은건지, 아니면
+버리는 컴퓨터를 동아리에서 줏어온건지, 알 수 없는 과정을 통해 유피넬의 컴퓨터가
+되었다. 하드디스크도 여러번 고장나고 업그레이드를 계속하다가 애물단지가 되어
+이를 버리게되자, [2015년 3월 27일에 김지현이 이를 포맷하여 서버로
+만든다.](http://upnl.org/336)
+
 유피넬 공식 서비스들이 호스팅되는 서버. 서버관리자와 서비스운영자만이 root
 권한을 갖고있고, 일반유저들은 접근할 수 없음.
 
 항목 | 내용
 ---|---
 주소 | [gemini.upnl.org](http://gemini.upnl.org/)
-IP | 211.218.61.123
+IP | 121.166.66.24
 OS | Ubuntu 14.04.5 LTS
-위치 | 춘천 IDC
-하드웨어 | 일반 탑형 데스크톱
+위치 | 김지현의 집
+케이스 | COX A3 노빌레 풀아크릴윈도우 with 헤일로X4 블랙
 Mainboard | 기가비트 GA-MA770-US3
 CPU | AMD Phenom 8750 (triple core, 2.40 GHz)
 RAM | DDR2 1GB×2 + 2GB×2
 Storage | 465.8GB, 시게이트 ST500DM002-1BD14
-VGA | GeForce 9500 GT
+VGA | *N/A*
+PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 
 아래와 같은 서비스들이 호스팅되고있음
 
@@ -78,12 +86,13 @@ VGA | GeForce 9500 GT
 IP | 147.46.242.115
 OS | Ubuntu 16.04 LTS
 위치 | 서울대학교 302동 서버실
-하드웨어 | 랙 유닛 (4U half-rack)
+케이스 | 랙 유닛 (4U half-rack)
 Mainboard | BIOSTAR TH67B
 CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
 RAM | DDR3 4GB * 4
 Storage | 60GB, 삼성 SSD 830<br>2TB, 히타치 HDD723020BLA642
 VGA | *N/A*
+PSU | **?**
 
 ### `apt`
 - linux-generic-hwe-16.04
@@ -102,6 +111,17 @@ VGA | *N/A*
 ## 3. sodrak
 소드락, 걍 서버.
 
+아주 오래된 서버. 최소한 2007년부터는 있었다. 원래 다른 이름으로 돌리던
+서버였다가 필요가 없어서 꺼졌는데, 소드락이라는 새 이름을 부여받고 다시 켜졌다.
+이**** 선배님을 통해 분당에 있는 KT IDC에서 오랜시간 돌아가다가, 월 8만원
+이용료의 부담이 점점 강해져서 2016년 1월 27일 IDC에서 나오게되었다. (관련기록:
+IRC 로그) 이후엔 김지현의 춘천 본가에서 돌리다가, 2016년 여름 전기료 누진율
+폭탄때문에 2016년 9월 학교로 옮기게되었다. (관련기록: [1] [2] [3])
+
+[1]: https://twitter.com/simnalamburt/status/777050904016986113
+[2]: https://twitter.com/simnalamburt/status/777507395631132673
+[3]: https://twitter.com/simnalamburt/status/777509134035918849
+
 회칙에 의거하여 모든 유피넬 정회원들은 소드락 계정과 root권한을 받을 수 있음.
 정회원들이 돌리고 싶은 서비스들은 아무거나 돌릴 수 있음.
 
@@ -111,12 +131,13 @@ VGA | *N/A*
 IP | 147.46.242.158
 OS | Ubuntu 14.04 LTS
 위치 | 302동 서버실
-하드웨어 | 랙 유닛 (2U)
+케이스 | 랙 유닛 (2U)
 Mainboard | 델 0RH817
 CPU | Intel Xeon 3060 (dual core, 2.40 GHz)
 RAM | DDR2 2GB × 4
 Storage | 465.8GB, 시게이트 ST500DM002-1BD14<br>931.5GB, 웨스턴 디지털 그린 WDC WD10EACS-00D
 VGA | ATI ES1000
+PSU | **?**
 
 1.  [유피넬 위키](http://wiki.sodrak.upnl.org/)
 1.  [노나메용 위키](http://old.wiki.sodrak.upnl.org/)
@@ -153,12 +174,13 @@ VGA | ATI ES1000
 IP | 147.46.113.114
 OS | Ubuntu 14.04.5 LTS
 위치 | 동아리방
-하드웨어 | 일반 탑형 데스크톱
+케이스 | 빅타워 케이스
 Mainboard | 기가비트 P55-UD3
 CPU | Intel Core i5-750 (quad core, 2.67 GHz)
 RAM | DDR3 2GB × 1
 Storage | 298.1GB, 웨스턴 디지털 블루 WDC WD3200AAJS-0
 VGA | MGA 2064W
+PSU | **?**
 
 1.  *아이디*.uriel.upnl.org (HTTPS Only)
 
