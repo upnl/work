@@ -58,11 +58,11 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 - linux-signed-generic-lts-xenial
 
 ### `apt` (PPA)
-- ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
+- redis-server                    - [ppa:chris-lea/redis-server](https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server)
+- docker-ce                       - [download.docker.com](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+- gitlab-ce                       - [packages.gitlab.com](https://about.gitlab.com/installation/#ubuntu)
+- mosh                            - [ppa:keithw/mosh](https://launchpad.net/~keithw/+archive/ubuntu/mosh)
 - tmux                            - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
-- gitlab-ce                       - [packages.gitlab.com](https://about.gitlab.com/downloads/#ubuntu1404)
-- mono-complete                   - [download.mono-project.com](http://www.mono-project.com/docs/getting-started/install/linux/)
-- docker-engine                   - [download.docker.com](https://docs.docker.com/engine/installation/linux/ubuntu/)
 
 ### Note
 - 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꾸는것을 잊지 말것.
