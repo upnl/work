@@ -68,7 +68,8 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 - [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
 
 ### Note
-- 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꾸는것을 잊지 말것.
+- ssh 포트 2222로 변경됨
+- 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꿔줬음
 
 <br>
 
