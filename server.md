@@ -99,7 +99,7 @@ PSU | **?**
 
 ### `apt`
 - linux-generic-hwe-16.04
-- nginx htop mosh
+- htop mosh
 
 **삭제한 패키지 목록**
 
