@@ -49,7 +49,7 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 1. [유피넬 깃랩](https://git.upnl.org)
 1. [유피넬 홈페이지](https://upnl.org)
 1. [UPoTable](https://pokemon.upnl.org)
-1. Helix
+1. [Helix](https://helix.upnl.org)
 
 ### `apt`
 - git vim-nox fish
