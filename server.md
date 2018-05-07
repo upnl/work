@@ -64,7 +64,7 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 - tmux                            - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
 
 ### etc
-- [Caddy](https://caddyserver.com)
+- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy`, `/etc/caddy/Caddyfile`)
 - [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
 
 ### Note
