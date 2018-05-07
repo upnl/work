@@ -46,15 +46,14 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 
 아래와 같은 서비스들이 호스팅되고있음
 
-1.  [유피넬 홈페이지](http://upnl.org/)
-1.  [유피넬 깃랩](http://git.upnl.org/)
-1.  [UPoTable](http://pokemon.upnl.org/)
-1.  [Sentry](http://sentry.upnl.org/)
+1. [유피넬 깃랩](https://git.upnl.org)
+1. [유피넬 홈페이지](https://upnl.org)
+1. [UPoTable](https://pokemon.upnl.org)
+1. Helix
 
 ### `apt`
-- git vim-nox zsh fish mosh tmux silversearcher-ag
-- nginx htop speedometer fail2ban ntp
-- weechat
+- git vim-nox fish
+- htop fail2ban ntp
 - linux-signed-generic-lts-xenial
 
 ### `apt` (PPA)
@@ -63,6 +62,10 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 - gitlab-ce                       - [packages.gitlab.com](https://about.gitlab.com/installation/#ubuntu)
 - mosh                            - [ppa:keithw/mosh](https://launchpad.net/~keithw/+archive/ubuntu/mosh)
 - tmux                            - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
+
+### etc
+- [Caddy](https://caddyserver.com)
+- [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
 
 ### Note
 - 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꾸는것을 잊지 말것.
