@@ -102,6 +102,9 @@ PSU | **?**
 - linux-generic-hwe-16.04
 - htop mosh
 
+### etc
+- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
+
 **삭제한 패키지 목록**
 
 - byobu snapd
@@ -164,6 +167,9 @@ PSU | **?**
 - irssi                           - [irssi.org](https://irssi.org/download/)
 - weechat-curses weechat-plugins  - [weechat.org](https://weechat.org/download/debian/#instructions)
 
+### etc
+- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
+
 <br>
 
 ## 4. uriel
@@ -205,6 +211,9 @@ PSU | **?**
 - nodejs                          - [deb.nodesource.com/setup_6.x](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - irssi                           - [irssi.org](https://irssi.org/download/)
 - weechat-curses weechat-plugins  - [weechat.org](https://weechat.org/download/debian/#instructions)
+
+### etc
+- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
 
 <br>
 
