@@ -54,7 +54,7 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 ### `apt`
 - git vim-nox fish
 - htop fail2ban ntp
-- linux-signed-generic-lts-xenial
+- linux-generic-lts-xenial
 
 ### `apt` (PPA)
 - redis-server                    - [ppa:chris-lea/redis-server](https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server)
@@ -157,7 +157,7 @@ PSU | **?**
 - virtualbox firefox docker
 - python3.4-venv
 - debian-goodies ppa-purge
-- linux-generic-lts-xenial linux-image-extra-virtual
+- linux-generic-lts-xenial
 
 ### `apt` (PPA)
 - apache2                         - [ppa:ondrej/apache2](https://launchpad.net/~ondrej/+archive/ubuntu/apache2)
@@ -203,7 +203,7 @@ PSU | **?**
 - g++-6 firefox docker.io cmake
 - python3.4-venv
 - debian-goodies ppa-purge
-- linux-generic-lts-xenial linux-image-extra-virtual
+- linux-generic-lts-xenial
 
 ### `apt` (PPA)
 - ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
