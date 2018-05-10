@@ -169,6 +169,7 @@ PSU | **?**
 
 ### etc
 - [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
+- [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
 
 <br>
 
