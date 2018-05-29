@@ -102,9 +102,6 @@ PSU | **?**
 - linux-generic-hwe-16.04
 - htop mosh
 
-### etc
-- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
-
 **삭제한 패키지 목록**
 
 - byobu snapd
