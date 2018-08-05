@@ -1,3 +1,22 @@
+유피넬 서버 외 자원 목록
+========
+
+A. 도메인: [upnl.org]
+--------
+[upnl.org] 도메인 소유주는 [heedong] 선배님이니, 네임서버를 바꾸고 싶을경우
+이분께 직접 연락해야한다.
+
+B. 네임서버: [Cloudflare]
+--------
+DNS 서버는 현재 [Cloudflare]를 사용하도록 되어있고, 클라우드플레어 계정은
+[simnalamburt]의 개인계정으로 되어있다.
+
+현재 클라우드플레어를 유피넬 공용계정으로 바꾸는 작업이 진행중이다.
+[#29](https://github.com/upnl/work/issues/29) 참고.
+
+이하는 암호화된 클라우드플레어 공용계정 비밀번호.
+
+```
 -----BEGIN PGP MESSAGE-----
 Comment: https://keybase.io/download
 Version: Keybase Go 2.3.0 (linux)
@@ -63,3 +82,9 @@ HpIN84vF5FXjDYAOvKc3xZEXqeIeq5ww5HyMPk++TzAkc9iRKZKqOBzivoHtHuFk
 2QA=
 =x6ij
 -----END PGP MESSAGE-----
+```
+
+[upnl.org]: https://upnl.org
+[heedong]: https://github.com/jinurius
+[Cloudflare]: https://cloudflare.com
+[simnalamburt]: http://github.com/simnalamburt

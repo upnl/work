@@ -1,14 +1,5 @@
 유피넬 서버목록
 ========
-[upnl.org] 도메인 소유주는 [heedong] 선배님이니, 네임서버를 바꾸고 싶을경우
-이분께 직접 연락해야한다. DNS 서버는 현재 [Cloudflare]를 사용하도록 되어있고,
-클라우드플레어 계정은 [simnalamburt]의 개인계정으로 되어있다.
-
-[upnl.org]: http://upnl.org
-[heedong]: https://github.com/jinurius
-[Cloudflare]: https://cloudflare.com
-[simnalamburt]: http://github.com/simnalamburt
-
 #### Table of contents
 1. [gemini](#1-gemini)
 2. [edhelbroy](#2-edhelbroy)
