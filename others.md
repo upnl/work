@@ -8,13 +8,8 @@ A. 도메인: [upnl.org]
 
 B. 네임서버: [Cloudflare]
 --------
-DNS 서버는 현재 [Cloudflare]를 사용하도록 되어있고, 클라우드플레어 계정은
-[simnalamburt]의 개인계정으로 되어있다.
-
-현재 클라우드플레어를 유피넬 공용계정으로 바꾸는 작업이 진행중이다.
-[#29](https://github.com/upnl/work/issues/29) 참고.
-
-이하는 암호화된 클라우드플레어 공용계정 비밀번호.
+DNS 서버는 [Cloudflare] 무료플랜을 사용중이다. <upnl.chairman@gmail.com>으로
+가입하였다. 이하는 암호화된 비밀번호. 서버관리자만이 복호화할 수 있다.
 
 ```
 -----BEGIN PGP MESSAGE-----
@@ -87,4 +82,3 @@ HpIN84vF5FXjDYAOvKc3xZEXqeIeq5ww5HyMPk++TzAkc9iRKZKqOBzivoHtHuFk
 [upnl.org]: https://upnl.org
 [heedong]: https://github.com/jinurius
 [Cloudflare]: https://cloudflare.com
-[simnalamburt]: http://github.com/simnalamburt
