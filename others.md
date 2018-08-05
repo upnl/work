@@ -6,10 +6,80 @@ A. 도메인: [upnl.org]
 [upnl.org] 도메인 소유주는 [heedong] 선배님이니, 네임서버를 바꾸고 싶을경우
 이분께 직접 연락해야한다.
 
+도메인을 유피넬 계정으로 이전하기 위해, 먼저 namecheap에 upnl 계정을 생성하였다. 이하는 암호화된 비밀번호. 서버관리자만이 복호화할 수 있다.
+
+```
+-----BEGIN PGP MESSAGE-----
+Comment: https://keybase.io/download
+Version: Keybase Go 2.4.0 (linux)
+
+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
+AA==
+=xaP2
+-----END PGP MESSAGE-----
+```
+
 B. 네임서버: [Cloudflare]
 --------
 DNS 서버는 [Cloudflare] 무료플랜을 사용중이다. <upnl.chairman@gmail.com>으로
-가입하였다. 이하는 암호화된 비밀번호. 서버관리자만이 복호화할 수 있다.
+가입하였다. 이하는 암호화된 비밀번호.
 
 ```
 -----BEGIN PGP MESSAGE-----
