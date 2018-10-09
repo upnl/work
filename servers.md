@@ -46,6 +46,7 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 - git vim-nox fish
 - htop fail2ban ntp
 - linux-generic-lts-xenial
+- libev4 (유피넬 홈페이지 bjoern의 종속성)
 
 ### `apt` (PPA)
 - redis-server                    - [ppa:chris-lea/redis-server](https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server)
