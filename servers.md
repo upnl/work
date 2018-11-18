@@ -92,7 +92,7 @@ PSU | **?**
 
 ### `apt`
 - linux-generic-hwe-16.04
-- htop mosh
+- htop
 
 **삭제한 패키지 목록**
 
