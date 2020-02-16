@@ -25,7 +25,7 @@
 ---|---
 주소 | [gemini.upnl.org](http://gemini.upnl.org/)
 IP | 121.166.66.24
-OS | Ubuntu 14.04.5 LTS
+OS | Ubuntu 18.04 LTS
 위치 | 김지현의 집
 케이스 | COX A3 노빌레 풀아크릴윈도우 with 헤일로X4 블랙
 Mainboard | 기가비트 GA-MA770-US3
@@ -40,19 +40,18 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 1. [유피넬 깃랩](https://git.upnl.org)
 
 ### `apt`
-- git
-- htop
-- linux-generic-lts-xenial
+- curl git htop
 
 ### `apt` (PPA)
-- docker-ce                       - [download.docker.com](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+- [docker-ce](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `5:19.03.6~3-0~ubuntu-bionic`
+- docker-ce-cli `5:19.03.6~3-0~ubuntu-bionic`
+- containerd.io
 
 ### etc
-- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
+- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/caddy/Caddyfile`)
 
 ### Note
 - ssh 포트 2222로 변경됨
-- 도커 설치한 뒤, 스토리지 드라이버를 [`overlay2`](https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/)로 바꿔줬음
 
 <br>
 
