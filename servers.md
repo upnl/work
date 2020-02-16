@@ -38,26 +38,17 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 아래와 같은 서비스들이 호스팅되고있음
 
 1. [유피넬 깃랩](https://git.upnl.org)
-1. [유피넬 홈페이지](https://upnl.org)
-1. [UPoTable](https://pokemon.upnl.org)
-1. [Helix](https://helix.upnl.org)
 
 ### `apt`
-- git vim-nox fish
-- htop fail2ban ntp
+- git
+- htop
 - linux-generic-lts-xenial
-- libev4 (유피넬 홈페이지 bjoern의 종속성)
 
 ### `apt` (PPA)
-- redis-server                    - [ppa:chris-lea/redis-server](https://launchpad.net/~chris-lea/+archive/ubuntu/redis-server)
 - docker-ce                       - [download.docker.com](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
-- gitlab-ce                       - [packages.gitlab.com](https://about.gitlab.com/installation/#ubuntu)
-- mosh                            - [ppa:keithw/mosh](https://launchpad.net/~keithw/+archive/ubuntu/mosh)
-- tmux                            - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
 
 ### etc
 - [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
-- [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
 
 ### Note
 - ssh 포트 2222로 변경됨
