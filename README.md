@@ -14,7 +14,3 @@
 - [@pbzweihander](https://github.com/pbzweihander)
 - [@tirr-c](https://github.com/tirr-c)
 - [@simnalamburt](https://github.com/simnalamburt)
-
-주요 사건 예정일
---------
-- 2020 시즌2 종료일, 김젼에게 전기세 10만원 주기 ([#3](https://github.com/upnl/work/issues/3))
