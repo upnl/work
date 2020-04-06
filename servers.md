@@ -23,7 +23,7 @@
 
 항목 | 내용
 ---|---
-주소 | [gemini.upnl.org](http://gemini.upnl.org/)
+도메인 | [gemini.upnl.org](http://gemini.upnl.org/)
 IP | 121.166.66.24
 OS | Ubuntu 18.04 LTS
 위치 | 김지현의 집
@@ -68,7 +68,7 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 
 항목 | 내용
 ---|---
-주소 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
+도메인 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
 IP | 147.46.242.115
 OS | Ubuntu 16.04 LTS
 위치 | 서울대학교 302동 서버실
@@ -111,7 +111,7 @@ IRC 로그) 이후엔 김지현의 춘천 본가에서 돌리다가, 2016년 여
 
 항목 | 내용
 ---|---
-주소 | [sodrak.upnl.org](http://sodrak.upnl.org/)
+도메인 | [sodrak.upnl.org](http://sodrak.upnl.org/)
 IP | 147.46.242.158
 OS | Ubuntu 14.04 LTS
 위치 | 302동 서버실
@@ -159,7 +159,7 @@ PSU | **?**
 
 항목 | 내용
 ---|---
-주소 | [uriel.upnl.org](https://uriel.upnl.org/)
+도메인 | [uriel.upnl.org](https://uriel.upnl.org/)
 IP | 147.46.113.114
 OS | Ubuntu 14.04.5 LTS
 위치 | 동아리방
