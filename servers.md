@@ -32,7 +32,7 @@
 도메인 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
 IP | 147.46.242.115
 OS | Ubuntu 16.04 LTS
-위치 | 서울대학교 302동 서버실
+위치 | 서울대학교 302동 서버실, 4번랙
 케이스 | 랙 유닛 (4U half-rack)
 Mainboard | BIOSTAR TH67B
 CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
@@ -75,7 +75,7 @@ IRC 로그) 이후엔 김지현의 춘천 본가에서 돌리다가, 2016년 여
 도메인 | [sodrak.upnl.org](http://sodrak.upnl.org/)
 IP | 147.46.242.158
 OS | Ubuntu 14.04 LTS
-위치 | 302동 서버실
+위치 | 302동 서버실, 3번랙
 케이스 | 랙 유닛 (2U)
 Mainboard | 델 0RH817
 CPU | Intel Xeon 3060 (dual core, 2.40 GHz)
