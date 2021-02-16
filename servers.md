@@ -42,6 +42,11 @@ Storage | 128GB, Samsung SSD 840 Pro
 VGA | *N/A*
 PSU | **?**
 
+### `apt` (Using HTTPS mirror of 'main' and 'contrib' repository)
+- openssh-sever
+- ca-certificates man curl htop git unzip tmux
+- fd-find ripgrep fzf
+
 <br>
 
 ## 3. sodrak
