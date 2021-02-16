@@ -54,8 +54,8 @@ PSU | **?**
 
 ### `apt` (Using HTTPS mirror of 'main' and 'contrib' repository)
 - openssh-sever
-- ca-certificates man curl htop git unzip tmux
-- fd-find ripgrep fzf
+- ca-certificates man curl htop git unzip tmux ldnsutils
+- fd-find ripgrep fzf fuse
 
 Manual:
 
