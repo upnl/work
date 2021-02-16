@@ -32,13 +32,13 @@ AWS에 올려진 서비스들을 에델브로이로 이전해야한다.
 ---|---
 도메인 | edhelbroy.upnl.org
 IP | 147.46.242.115
-OS | *N/A*
+OS | Debian 10 (codename "buster")
 위치 | 서울대학교 302동 하드웨어 실습실
 케이스 | 랙 유닛 (4U half-rack)
 Mainboard | BIOSTAR TH67B
 CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
 RAM | DDR3 4GB * 4
-Storage | 60GB, 삼성 SSD 830<br>2TB, 히타치 HDD723020BLA642
+Storage | 128GB, Samsung SSD 840 Pro
 VGA | *N/A*
 PSU | **?**
 
