@@ -51,10 +51,12 @@ PSU | **?**
   느린 경우가 있어 쓰지 않고, ftp.kr.debian.org는 HTTPS를 지원하지 않아 쓰지
   않는다. HTTPS를 써야만 하는 이유는 학교가 암호화되지 않은 트래픽은 가로채기
   때문이다.
+- "main", "contrib", "non-free" 리포를 쓴다. 이 머신이 필요로하는
+  "rlt_nic/rtl8168e-2.fw" 펌웨어가 non-free여서 어쩔 수 없다.
 
-### `apt` (Using HTTPS mirror of 'main' and 'contrib' repository)
-- openssh-sever
-- ca-certificates man curl htop git unzip tmux ldnsutils
+### `apt`
+- firmware-realtek ca-certificates
+- openssh-sever man curl htop git unzip tmux ldnsutils
 - fd-find ripgrep fzf fuse
 
 Manual:
