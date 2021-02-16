@@ -42,10 +42,20 @@ Storage | 128GB, Samsung SSD 840 Pro
 VGA | *N/A*
 PSU | **?**
 
+### 특이사항
+- DNS 리졸빙이 임의로 실패하는 등, 정보화본부(중앙전산원)에서 자꾸 DNS 트래픽을
+  가로채는듯한 동작을 보임. 이에 따라, 모든 암호화되지 않은 트래픽은 학교가
+  가로채는것으로 가정하고 `cloudflared`를 사용해 DNS-over-HTTPS를 사용하도록
+  세팅함. `/etc/systemd/system/cloudflared-proxy-dns.service` 참고
+
 ### `apt` (Using HTTPS mirror of 'main' and 'contrib' repository)
 - openssh-sever
 - ca-certificates man curl htop git unzip tmux
 - fd-find ripgrep fzf
+
+Manual:
+
+- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
 
 <br>
 
