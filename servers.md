@@ -30,7 +30,7 @@ AWS에 올려진 서비스들을 에델브로이로 이전해야한다.
 
 항목 | 내용
 ---|---
-도메인 | [edhelbroy.upnl.org](http://edhelbroy.upnl.org/)
+도메인 | edhelbroy.upnl.org
 IP | 147.46.242.115
 OS | *N/A*
 위치 | 서울대학교 302동 하드웨어 실습실
@@ -64,7 +64,7 @@ IRC 로그) 이후엔 김지현의 춘천 본가에서 돌리다가, 2016년 여
 
 항목 | 내용
 ---|---
-도메인 | [sodrak.upnl.org](http://sodrak.upnl.org/)
+도메인 | [sodrak.upnl.org](https://sodrak.upnl.org/)
 IP | 147.46.242.158
 OS | Ubuntu 14.04 LTS
 위치 | 302동 서버실, 3번랙
@@ -76,7 +76,7 @@ Storage | 465.8GB, 시게이트 ST500DM002-1BD14<br>931.5GB, 웨스턴 디지털
 VGA | ATI ES1000
 PSU | **?**
 
-1.  [유피넬 위키](http://wiki.sodrak.upnl.org/)
+1.  [유피넬 위키](https://wiki.upnl.org)
 1.  [노나메용 위키](http://old.wiki.sodrak.upnl.org/)
 1.  *아이디*.upnl.org
 
