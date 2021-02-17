@@ -33,7 +33,7 @@ AWS에 올려진 서비스들을 에델브로이로 이전해야한다.
 도메인 | edhelbroy.upnl.org
 IP | 147.46.242.115
 OS | Debian 10 (codename "buster")
-위치 | 서울대학교 302동 하드웨어 실습실
+위치 | 서울대학교 302동 서버실 4번 랙
 케이스 | 랙 유닛 (4U half-rack)
 Mainboard | BIOSTAR TH67B
 CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
