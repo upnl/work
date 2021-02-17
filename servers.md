@@ -31,7 +31,7 @@ AWS에 올려진 서비스들을 에델브로이로 이전해야한다.
 항목 | 내용
 ---|---
 도메인 | edhelbroy.upnl.org
-IP | 147.46.242.115
+IP | 147.46.241.87
 OS | Debian 10 (codename "buster")
 위치 | 서울대학교 302동 서버실 4번 랙
 케이스 | 랙 유닛 (4U half-rack)
@@ -43,15 +43,14 @@ VGA | *N/A*
 PSU | **?**
 
 ### 특이사항
-- DNS 리졸빙이 임의로 실패하는 등, 정보화본부(중앙전산원)에서 자꾸 DNS 트래픽을
-  가로채는듯한 동작을 보임. 이에 따라, 모든 암호화되지 않은 트래픽은 학교가
-  가로채는것으로 가정하고 `cloudflared`를 사용해 DNS-over-HTTPS를 사용하도록
-  세팅함. `/etc/systemd/system/cloudflared-proxy-dns.service` 참고
+- 학교가 암호화되지 않은 트래픽은 감시하기때문에, `cloudflared`를 사용해
+  DNS-over-HTTPS를 사용하도록 세팅하였다.
+  `/etc/systemd/system/cloudflared-proxy-dns.service` 참고
 - <https://ftp.kaist.ac.kr/debian/> 미러를 사용한다. deb.debian.org는 CDN 반응이
   느린 경우가 있어 쓰지 않고, ftp.kr.debian.org는 HTTPS를 지원하지 않아 쓰지
-  않는다. HTTPS를 써야만 하는 이유는 학교가 암호화되지 않은 트래픽은 가로채기
-  때문이다.
-- "main", "contrib", "non-free" 리포를 쓴다. 이 머신이 필요로하는
+  않는다. HTTPS를 써야만 하는 이유는 학교가 암호화되지 않은 트래픽(특히 HTTP)은
+  가로채기 때문이다.
+- "main" 리포 외에도 "contrib", "non-free" 리포를 쓴다. 이 머신이 필요로하는
   "rlt_nic/rtl8168e-2.fw" 펌웨어가 non-free여서 어쩔 수 없다.
 
 ### `apt`
