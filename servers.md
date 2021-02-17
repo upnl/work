@@ -57,6 +57,20 @@ PSU | **?**
 - firmware-realtek ca-certificates
 - openssh-sever man curl htop git unzip tmux ldnsutils
 - fd-find ripgrep fzf fuse
+- apt-transport-https gnupg-agent software-properties-common
+
+### Docker
+https://docs.docker.com/engine/install/debian/
+
+```sh
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io
+```
 
 Manual:
 
