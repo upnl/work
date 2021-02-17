@@ -61,6 +61,8 @@ PSU | **?**
 Manual:
 
 - [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
+- [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), also alias as
+  "vi" and "vim"
 
 <br>
 
