@@ -63,6 +63,7 @@ Manual:
 - [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
 - [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), also alias as
   "vi" and "vim"
+- [caddy](https://github.com/caddyserver/caddy/releases/tag/v2.3.0)
 
 <br>
 
