@@ -59,8 +59,13 @@ PSU | **?**
 - fd-find ripgrep fzf fuse
 - apt-transport-https gnupg-agent software-properties-common
 
+### `/usr/local/bin`
+- k3s
+- [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), aliased as "vi" and "vim"
+- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
+
 ### Docker
-https://docs.docker.com/engine/install/debian/
+See https://docs.docker.com/engine/install/debian/ for details
 
 ```sh
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
@@ -72,14 +77,7 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 ```
 
-Manual:
-
-- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
-- [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), also alias as
-  "vi" and "vim"
-- [caddy](https://github.com/caddyserver/caddy/releases/tag/v2.3.0)
-
-<br>
+&nbsp;
 
 ## 3. sodrak
 소드락, 걍 서버.
