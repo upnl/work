@@ -3,6 +3,7 @@
 #### Table of contents
 1. [uriel](#1-uriel)
 2. [gemini](#2-gemini)
+3. [ebony](#3-ebony)
 
 <br>
 
@@ -92,3 +93,14 @@ PSU | 슈퍼플라워 SF-500R14SE Silver Green FX
 
 ### Note
 - ssh 포트 2222로 변경됨
+
+<br>
+
+## 3. ebony
+에보니, AWS 프로덕션 서버. 유피넬 공식 서비스들이 호스팅되는 서버. 서버관리자와
+서비스운영자만이 root 권한을 갖고있고, 일반유저들은 접근할 수 없음.
+
+서버에 관한 상세 정보는 [upnl/infra](https://github.com/upnl/infra)의 테라폼
+코드를 참고바람.
+
+비용문제로 폐기됨.

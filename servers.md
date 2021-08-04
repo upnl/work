@@ -1,24 +1,12 @@
 유피넬 서버목록
 ========
 #### Table of contents
-1. [ebony](#1-ebony)
-2. [edhelbroy](#2-edhelbroy)
-3. [sodrak](#3-sodrak)
+1. [edhelbroy](#1-edhelbroy)
+2. [sodrak](#2-sodrak)
 
 <br>
 
-## 1. ebony
-에보니, AWS 프로덕션 서버. 유피넬 공식 서비스들이 호스팅되는 서버. 서버관리자와
-서비스운영자만이 root 권한을 갖고있고, 일반유저들은 접근할 수 없음.
-
-서버에 관한 상세 정보는 [upnl/infra](https://github.com/upnl/infra)의 테라폼
-코드를 참고바람.
-
-비용문제로 폐기예정.
-
-<br>
-
-## 2. edhelbroy
+## 1. edhelbroy
 에델브로이, 학내 프로덕션 서버
 
 [선배님께 기증](https://www.snucse.org/413785)받은 서버이다. 다른 서버들은
@@ -67,7 +55,7 @@ PSU | **?**
 
 &nbsp;
 
-## 3. sodrak
+## 2. sodrak
 소드락, 걍 서버.
 
 아주 오래된 서버. 최소한 2007년부터는 있었다. 원래 다른 이름으로 돌리던
