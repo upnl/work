@@ -52,6 +52,7 @@ PSU | **?**
   가로채기 때문이다.
 - "main" 리포 외에도 "contrib", "non-free" 리포를 쓴다. 이 머신이 필요로하는
   "rlt_nic/rtl8168e-2.fw" 펌웨어가 non-free여서 어쩔 수 없다.
+- gitlab이 22번 포트를 필요로 하기때문에, sshd가 2222번 포트를 사용한다.
 
 ### `apt`
 - firmware-realtek ca-certificates
