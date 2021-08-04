@@ -46,7 +46,7 @@ PSU | **?**
 - 학교가 암호화되지 않은 트래픽은 감시하기때문에, `cloudflared`를 사용해
   DNS-over-HTTPS를 사용하도록 세팅하였다.
   `/etc/systemd/system/cloudflared-proxy-dns.service` 참고
-- <https://ftp.kaist.ac.kr/debian/> 미러를 사용한다. deb.debian.org는 CDN 반응이
+- <https://ftp.lanet.kr/debian/> 미러를 사용한다. deb.debian.org는 CDN 반응이
   느린 경우가 있어 쓰지 않고, ftp.kr.debian.org는 HTTPS를 지원하지 않아 쓰지
   않는다. HTTPS를 써야만 하는 이유는 학교가 암호화되지 않은 트래픽(특히 HTTP)은
   가로채기 때문이다.
