@@ -65,19 +65,6 @@ PSU | **?**
 - [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), aliased as "vi" and "vim"
 - [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
 
-### Docker
-See https://docs.docker.com/engine/install/debian/ for details
-
-```sh
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/debian \
-   $(lsb_release -cs) \
-   stable"
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io
-```
-
 &nbsp;
 
 ## 3. sodrak
