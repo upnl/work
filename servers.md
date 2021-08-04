@@ -56,7 +56,7 @@ PSU | **?**
 
 ### `apt`
 - firmware-realtek ca-certificates
-- openssh-sever man curl htop git unzip tmux ldnsutils
+- openssh-sever man curl htop git unzip tmux ldnsutils rsync
 - fd-find ripgrep fzf fuse
 - apt-transport-https gnupg-agent software-properties-common
 
