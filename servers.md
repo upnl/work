@@ -88,7 +88,6 @@ VGA | ATI ES1000
 PSU | **?**
 
 1.  [유피넬 위키](https://wiki.upnl.org)
-1.  [노나메용 위키](http://old.wiki.sodrak.upnl.org/)
 1.  *아이디*.upnl.org
 
 ### `apt`
