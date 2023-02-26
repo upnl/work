@@ -98,16 +98,14 @@ PSU | **?**
 - python3.4-venv
 - debian-goodies ppa-purge
 - linux-generic-lts-xenial
+- build-essential autoconf libtool bison re2c pkg-config (to compile php 8.1)
 
 ### `apt` (PPA)
-- apache2                         - [ppa:ondrej/apache2](https://launchpad.net/~ondrej/+archive/ubuntu/apache2)
 - ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
 - vim-nox tmux                    - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
 - nodejs                          - [deb.nodesource.com/setup_6.x](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- irssi                           - [irssi.org](https://irssi.org/download/)
-- weechat-curses weechat-plugins  - [weechat.org](https://weechat.org/download/debian/#instructions)
 - g++-8                           - [ppa:jonathonf/gcc](https://launchpad.net/~jonathonf/+archive/ubuntu/gcc)
 
-### etc
+### `/usr/local/bin`
 - [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
 - [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
