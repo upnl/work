@@ -10,20 +10,20 @@ UPnL
 
 ### B. 유피넬 서버 외 자원 목록
 
-서비스 | 역할 | ID
-----|----|----
-[Cloudflare] 계정 | 도메인 Registrar 및 DNS 서버 | <upnl.chairman@gmail.com>
-[Sentry] | 유피넬 홈페이지 크래시 감시용 | <upnl@upnl.org>
-[github.com/upnl-snu] | 깃헙 봇계정 | <upnl.chairman@gmail.com>
-AWS | 유피넬 서비스 | <upnl.chairman@gmail.com>
+서비스                | 역할                          | ID
+----------------------|-------------------------------|---------------------------
+[Cloudflare] 계정     | 도메인 Registrar 및 DNS 서버  | <upnl.chairman@gmail.com>
+[Sentry]              | 유피넬 홈페이지 크래시 감시용 | <upnl@upnl.org>
+[github.com/upnl-snu] | 깃헙 봇계정                   | <upnl.chairman@gmail.com>
+AWS                   | 유피넬 서비스                 | <upnl.chairman@gmail.com>
 
-비밀번호는 [credentials.age], [credentials.pgp]에 저장되어있다. [age] 사용자는 github에 등록한 ssh 키를 사용해, PGP 사용자는 keybase.io에 등록한 PGP 키를 사용해 복호화하면 된다.
+비밀번호는 [credentials]에 저장되어있다. [age]를 사용해, github에 등록된 본인의
+ssh 키로 복호화하면 된다.
 
 [Cloudflare]: https://cloudflare.com
 [Sentry]: https://sentry.io/upnl/upnlorg/#welcome
 [github.com/upnl-snu]: https://github.com/upnl-snu
-[credentials.age]: https://github.com/upnl/work/raw/refs/heads/main/credentials.age
-[credentials.pgp]: https://github.com/upnl/work/raw/refs/heads/main/credentials.pgp
+[credentials]: https://github.com/upnl/work/raw/refs/heads/main/credentials
 [age]: https://github.com/FiloSottile/age
 
 ### C. 현역 서버 관리자 목록
