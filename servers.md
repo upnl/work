@@ -18,40 +18,26 @@
 ---|---
 도메인 | edhelbroy.upnl.org
 IP | 147.46.241.87
-OS | Debian 10 (codename "buster")
+OS | Debian 12 (codename "bookworm")
 위치 | 서울대학교 302동 서버실 4번 랙
 케이스 | 랙 유닛 (4U half-rack)
 Mainboard | BIOSTAR TH67B
 CPU | Intel Core i7-2600 (quad core, 3.40 GHz)
 RAM | DDR3 4GB * 4
-Storage | 128GB, Samsung SSD 840 Pro
+Storage | 256GB * 2 MIRROR, Samsung SSD PM9B1
 VGA | *N/A*
 PSU | **?**
 
 ### 특이사항
-- 학교가 암호화되지 않은 트래픽은 감시하기때문에, `cloudflared`를 사용해
-  DNS-over-HTTPS를 사용하도록 세팅하였다.
-  `/etc/systemd/system/cloudflared-proxy-dns.service` 참고
-- <https://ftp.lanet.kr/debian/> 미러를 사용한다. deb.debian.org는 CDN 반응이
-  느린 경우가 있어 쓰지 않고, ftp.kr.debian.org는 HTTPS를 지원하지 않아 쓰지
-  않는다. HTTPS를 써야만 하는 이유는 학교가 암호화되지 않은 트래픽(특히 HTTP)은
-  가로채기 때문이다.
-- "main" 리포 외에도 "contrib", "non-free" 리포를 쓴다. 이 머신이 필요로하는
-  "rlt_nic/rtl8168e-2.fw" 펌웨어가 non-free여서 어쩔 수 없다.
-- gitlab이 22번 포트를 필요로 하기때문에, sshd가 2222번 포트를 사용한다.
 
-### `apt`
-- firmware-realtek ca-certificates
-- openssh-sever man curl htop git unzip tmux ldnsutils rsync
-- fd-find ripgrep fzf fuse
-- apt-transport-https gnupg-agent software-properties-common
+- UEFI boot 파티션으로 nvme ssd를 사용할 수 없어 부트 디스크는 이전에 사용하던 SATA3 기반 ssd를 사용중이다. 
+
 
 ### `/usr/local/bin`
-- k3s
+- **k0s**
 - [nvim](https://github.com/neovim/neovim/releases/tag/v0.4.4), aliased as "vi" and "vim"
-- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation)
 
-&nbsp;
+---
 
 ## 2. sodrak
 소드락, 걍 서버.
@@ -75,35 +61,19 @@ IRC 로그) 이후엔 김지현의 춘천 본가에서 돌리다가, 2016년 여
 ---|---
 도메인 | [sodrak.upnl.org](https://sodrak.upnl.org/)
 IP | 147.46.242.158
-OS | Ubuntu 14.04 LTS
+OS | Arch Linux 
 위치 | 302동 서버실, 3번랙
 케이스 | 랙 유닛 (2U)
 Mainboard | 델 0RH817
 CPU | Intel Xeon 3060 (dual core, 2.40 GHz)
 RAM | DDR2 2GB × 4
-Storage | 465.8GB, 시게이트 ST500DM002-1BD14<br>931.5GB, 웨스턴 디지털 그린 WDC WD10EACS-00D
+Storage | 465.8GB, Seagate ST500DM002-1BD14 (/boot, swap, BIOS boot partition) & 931.5GB, WD Green WDC WD10EACS-00D (/home) & 256GB Samsung SSD PM9B1 (/)
 VGA | ATI ES1000
 PSU | **?**
 
-1.  [유피넬 위키](https://wiki.upnl.org)
-1.  *아이디*.upnl.org
+### 특이사항
 
-### `apt`
-- mosh zsh fish git htop silversearcher-ag
-- htop speedometer fail2ban ntp
-- php5 cvs subversion cmake bison ocaml openjdk-7-jdk pandoc redis-server
-- virtualbox firefox docker
-- python3.4-venv
-- debian-goodies ppa-purge
-- linux-generic-lts-xenial
-- build-essential autoconf libtool bison re2c pkg-config (to compile php 8.1)
-
-### `apt` (PPA)
-- ruby2.4 ruby2.4-dev ruby-switch - [ppa:brightbox/ruby-ng](https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng)
-- vim-nox tmux                    - [ppa:pi-rho/dev](https://launchpad.net/~pi-rho/+archive/ubuntu/dev)
-- nodejs                          - [deb.nodesource.com/setup_6.x](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- g++-8                           - [ppa:jonathonf/gcc](https://launchpad.net/~jonathonf/+archive/ubuntu/gcc)
-
-### `/usr/local/bin`
-- [Caddy](https://caddyserver.com) (`/usr/local/bin/caddy`, `/etc/init/caddy.conf`, `/etc/caddy/Caddyfile`)
-- [ripgrep](https://github.com/BurntSushi/ripgrep/releases)
+- btrfs mirror를 적용할 에정이었으나, 메인보드가 PCI-e 이중화를 지원하지 않아 장착한 PM9B1 ssd 2개 중 하나만 읽히고 있는 상황.
+  - CD 리더를 제거하고 확장카드를 넣어서 쓰거나, 아니면 다른 자원으로 옮기기 필요
+- 메인보드의 BIOS가 상당히 옛날 것이라, UEFI 부트로더를 이용할 수 없어 MBR BIOS Boot Partition을 이용하였다.
+  - 재설치시 이를 유념하여 grub 설치에 BIOS boot partition 설치 매뉴얼을 확인할 것.
