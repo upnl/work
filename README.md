@@ -26,6 +26,4 @@ ssh 키로 복호화하면 된다.
 
 ### C. 현역 서버 관리자 목록
 - [@integraldx](https://github.com/integraldx)
-- [@pbzweihander](https://github.com/pbzweihander)
-- [@tirr-c](https://github.com/tirr-c)
-- [@simnalamburt](https://github.com/simnalamburt)
+- [@mathshyun](https://github.com/mathshyun)
