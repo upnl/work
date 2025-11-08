@@ -27,3 +27,4 @@ ssh 키로 복호화하면 된다.
 ### C. 현역 서버 관리자 목록
 - [@integraldx](https://github.com/integraldx)
 - [@mathshyun](https://github.com/mathshyun)
+- [@KMSstudio](https://github.com/KMSstudio)
